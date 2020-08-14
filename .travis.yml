@@ -4,8 +4,6 @@ version: ~> 1.0
 import:
 - land-of-apps/land-of-apps:travis/ruby-imports.yml
 
-before_install:
-- gem install bundler -v '1.17.3'
-
 script:
+- gem install bundler -v '1.17.3'
 - APPMAP=true bundle exec rspec
