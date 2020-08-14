@@ -8,4 +8,4 @@ before_install:
 - gem install bundler -v '1.17.3'
 
 script:
-- APPMAP=true bundle exec rspec ./spec/*
+- APPMAP=true bundle _1.17.3_ exec rspec ./spec/*
